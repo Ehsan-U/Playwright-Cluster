@@ -33,7 +33,8 @@ payload = {
     # explicit wait after page loaded (milliseconds)
     "wait_for": 5000,
     # block images loading
-    "images_enabled": False
+    "images_enabled": False,
+    "ads_enabled": False
 }
 
 # Send the request

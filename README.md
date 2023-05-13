@@ -28,10 +28,8 @@ import requests
 url = "http://clusterIP/"
 payload = {
     "url": "https://www.example.com",
-    # xpath or css selector
-    "wait_until": "selector",
-    # selector timeout (milliseconds)
-    "timeout": 1000,
+    # wait for element
+    "wait_until": {"selector": "//html", "timeout": 30000, "state": "visible"},
     # explicit wait after page loaded (milliseconds)
     "wait_for": 5000,
     # block images loading

@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: rendering-deployment
+spec:
+  template:
+    metadata:
+      name: rendering-pod
+      labels:
+        name: rendering-pod
+        app: renderscout
+    spec:
+      containers:
+        - image: ehsanu/renderscout
+          name: rendering-ctr
+          ports:
+            - containerPort: 3000
+  replicas: 5
+  selector:
+    matchLabels:
+      name: rendering-pod
+      app: renderscout

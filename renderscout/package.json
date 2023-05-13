@@ -1,0 +1,20 @@
+{
+  "name": "rendering",
+  "version": "1.0.0",
+  "description": "rendering service for web scraping",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ehsan u.",
+  "license": "ISC",
+  "dependencies": {
+    "@cliqz/adblocker-playwright": "^1.26.5",
+    "body-parser": "^1.20.2",
+    "compression": "^1.7.4",
+    "cross-fetch": "^3.1.5",
+    "express": "^4.18.2",
+    "playwright-extra": "^4.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  }
+}

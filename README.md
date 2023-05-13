@@ -7,7 +7,7 @@ PlaywrightKube exposes an express API endpoint to interact with playwright. it e
 import requests
 
 # Make a POST request to the endpoint with the Request payload
-url = "http://localhost:8000/"
+url = "http://clusterIP/"
 payload = {
     "url": "https://www.example.com",
 }
@@ -25,7 +25,7 @@ print(data)
 import requests
 
 # Make a POST request to the endpoint with the Request payload
-url = "http://localhost:8000/"
+url = "http://clusterIP/"
 payload = {
     "url": "https://www.example.com",
     # xpath or css selector

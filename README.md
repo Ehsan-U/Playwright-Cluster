@@ -3,7 +3,7 @@
 PlaywrightKube exposes an express API endpoint to interact with playwright. it enable integration of highly available and scalable playwright cluster with the requests, scrapy for JS rendering.
 
 ## Features
-- Optimized for high performance and high concurrency using asynchronous programming
+- Optimized for high concurrency using asynchronous programming
 - Uses Playwright-extra stealth plugin for avoid detection
 - Built-in ad-blocker
 
